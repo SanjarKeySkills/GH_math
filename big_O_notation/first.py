@@ -55,3 +55,5 @@ print(exists)
 my_set.add(6)
 exists = 3 in my_set
 print(exists)
+# check out for the key and the element presence (key in dict, element in set)
+#insert (dict[key] = value, set.add(element))
