@@ -47,3 +47,4 @@ my_set = {1, 2, 3, 4, 5}
 # O(1) in average case
 my_dict['grape'] = 15 #insert
 print(my_dict)
+value = my_dict['apple'] #receiving
