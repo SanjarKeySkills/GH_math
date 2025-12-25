@@ -25,10 +25,12 @@ print(first_element)
 print(middle_element)
 print(last_element)
 
-# isert and delete O(N)
+# insert and delete O(N)
 
 my_list1 = []
 my_list1.append(1)
 my_list1.append(2)
 a = my_list1.append(3)
 print(my_list1)
+
+#
