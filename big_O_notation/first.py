@@ -54,3 +54,4 @@ print(exists)
 
 my_set.add(6)
 exists = 3 in my_set
+print(exists)
