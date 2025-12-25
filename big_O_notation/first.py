@@ -33,7 +33,7 @@ my_list1.append(2)
 a = my_list1.append(3)
 print(my_list1)
 
-last_element1 = my_list1.pop(0)
+# last_element1 = my_list1.pop(0)
 print(last_element1)
 
 my_list1.insert(0, 0)
