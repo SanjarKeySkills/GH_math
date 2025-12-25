@@ -21,9 +21,9 @@ my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90]
 first_element = my_list[0]
 middle_element = my_list[5]
 last_element = my_list[-1]
-print(first_element)
-print(middle_element)
-print(last_element)
+# print(first_element)
+# print(middle_element)
+# print(last_element)
 
 # insert and delete O(N)
 
@@ -31,13 +31,13 @@ my_list1 = []
 my_list1.append(1)
 my_list1.append(2)
 a = my_list1.append(3)
-print(my_list1)
+# print(my_list1)
 
 last_element1 = my_list1.pop()
-print(last_element1)
+# print(last_element1)
 
 my_list1.insert(0, 0)
-print(my_list1)
+# print(my_list1)
 
 # hash-tag table workout (dictionary/multiplicity)
 # average_case
