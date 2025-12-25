@@ -25,3 +25,7 @@ print(first_element)
 print(middle_element)
 print(last_element)
 
+# isert and delete
+
+my_list1 = []
+my_list1.append(1)
