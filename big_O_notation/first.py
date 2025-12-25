@@ -39,5 +39,8 @@ print(last_element1)
 my_list1.insert(0, 0)
 print(my_list1)
 
+# hash-tag table workout (dictionary/multiplicity)
+# average_case
 
-# 
+my_dict = {'apple':5, 'banana':10, 'orange':7}
+my_set = {1, 2, 3, 4, 5}
