@@ -25,7 +25,7 @@ print(first_element)
 print(middle_element)
 print(last_element)
 
-# isert and delete
+# isert and delete O(N)
 
 my_list1 = []
 my_list1.append(1)
