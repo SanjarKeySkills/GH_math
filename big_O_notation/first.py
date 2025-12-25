@@ -60,3 +60,7 @@ print(exists)
 # dict[key] receives according to the key
 
 # O(1) the constant complexity
+def is_even(num):
+    return num % 2 == 0 # O(1) - just one unit
+result = is_even(101)
+print(result)
