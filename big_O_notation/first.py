@@ -58,3 +58,5 @@ print(exists)
 # check out for the key and the element presence (key in dict, element in set)
 # insert (dict[key] = value, set.add(element))
 # dict[key] receives according to the key
+
+# O(1) the constant complexity
