@@ -49,4 +49,5 @@ my_dict['grape'] = 15 #insert
 print(my_dict)
 value = my_dict['apple'] #receiving
 exists = 'banana' in my_dict
+print(value)
 print(exists)
