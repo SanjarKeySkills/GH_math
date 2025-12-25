@@ -29,3 +29,5 @@ print(last_element)
 
 my_list1 = []
 my_list1.append(1)
+my_list1.append(2)
+my_list1.append(3)
