@@ -46,15 +46,15 @@ my_dict = {'apple':5, 'banana':10, 'orange':7}
 my_set = {1, 2, 3, 4, 5}
 # O(1) in average case
 my_dict['grape'] = 15 #insert
-print(my_dict)
+# print(my_dict)
 value = my_dict['apple'] #receiving
 exists = 'banana' in my_dict
-print(value)
-print(exists)
+# print(value)
+# print(exists)
 
 my_set.add(6)
 exists = 3 in my_set
-print(exists)
+# print(exists)
 # check out for the key and the element presence (key in dict, element in set)
 # insert (dict[key] = value, set.add(element))
 # dict[key] receives according to the key
@@ -63,4 +63,24 @@ print(exists)
 def is_even(num):
     return num % 2 == 0 # O(1) - just one unit
 result = is_even(101)
-print(result)
+# print(result)
+
+
+#---------------------
+#class Node:
+
+def __init__(self, value):
+    self.value = value
+    self.left = None
+    self.right = None
+
+def searchInBST(root, target):
+    current = root
+    while current:
+        if current.value == target:
+            return True #if we found
+        elif target < current.value:
+            current = current.left # we are going to the left sub-tree
+        else:
+            current = current.right # we are going to the right sub-tree
+        return False # if not found
