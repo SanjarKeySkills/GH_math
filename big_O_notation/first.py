@@ -87,3 +87,6 @@ def searchInBST(root, target):
 print()
 
 #--------------------------
+
+# O(1)
+my_list1 = {'apple': 3, "banana": 4}
