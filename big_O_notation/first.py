@@ -63,7 +63,7 @@ exists = 3 in my_set
 def is_even(num):
     return num % 2 == 0 # O(1) - just one unit
 result = is_even(101)
-# print(result)
+print(result)
 
 
 #---------------------
@@ -84,3 +84,6 @@ def searchInBST(root, target):
         else:
             current = current.right # we are going to the right sub-tree
         return False # if not found
+print()
+
+#--------------------------
