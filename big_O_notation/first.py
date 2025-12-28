@@ -127,3 +127,28 @@ def binary_search(arr, target):
 arr = [1, 3, 5, 7, 9, 11, 13]
 print(binary_search(arr, 7))  # 3
 print(binary_search(arr, 10)) # -1
+
+#-----------------------------
+
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+def search_in_bst(root, target):
+    if root is None or root.value == target:
+        return root
+    if target < root.value:
+        return search_in_bst(root.left, target)
+    return search_in_bst(root.right, target)
+
+# Пример использования
+root = Node(10)
+root.left = Node(5)
+root.right = Node(20)
+root.left.right = Node(7)
+root.right.left = Node(15)
+
+result = search_in_bst(root, 7)
+print(result.value if result else "Не найдено")  # 7
