@@ -94,5 +94,18 @@ import bisect
 arr = [1, 2, 4, 5, 7, 9]
 index = bisect.bisect_left(arr, 5)
 print(index)  # 3 (индекс, где находится 5)
+#---------------------
 
+def power(x, n):
+    if n == 0:
+        return 1
+    if n < 0:
+        return 1 / power(x, -n)
+    if n % 2 == 0:
+        half = power(x, n // 2)
+        return half * half
+    else:
+        return x * power(x, n - 1)
+
+print(power(2, 10))  # 1024
 
