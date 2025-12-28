@@ -88,5 +88,11 @@ print()
 
 #--------------------------
 
-# O(1)
-my_list1 = {'apple': 3, "banana": 4}
+# (log N)
+import bisect
+
+arr = [1, 2, 4, 5, 7, 9]
+index = bisect.bisect_left(arr, 5)
+print(index)  # 3 (индекс, где находится 5)
+
+
