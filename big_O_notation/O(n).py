@@ -5,4 +5,4 @@ def find_after_index(arr, target, start_from = 0):
     return -1
 
 arr = [10, 20, 30, 20, 40]
-print(find_after_index(arr, 20, 2ss))
+print(find_after_index(arr, 20, 2))
