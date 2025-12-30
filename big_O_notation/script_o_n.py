@@ -22,6 +22,6 @@ def binary_search(arr, target):
             right = mid - 1 # search in the left side
     return - 1
 result = binary_search([1,2,3,4,5,6,7], 4)
-
+print(result)
 #---------
 
