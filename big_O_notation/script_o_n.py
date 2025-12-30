@@ -20,7 +20,7 @@ def binary_search(arr, target):
             left = mid + 1 # search in right side
         else:
             right = mid - 1 # search in the left side
-        return - 1
+    return - 1
 
 #---------
 
