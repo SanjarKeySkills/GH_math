@@ -21,3 +21,6 @@ def binary_search(arr, target):
         else:
             right = mid - 1 # search in the left side
         return - 1
+
+#---------
+
