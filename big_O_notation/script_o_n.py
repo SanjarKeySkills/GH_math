@@ -25,3 +25,8 @@ result = binary_search([1,2,3,4,5,6,7], 4)
 print(result)
 #---------
 
+#constant
+
+students = ["ann", "boris", "victor", "galina"]
+students_ids = {id: name for id, name in enumerate(students, start=100)}
+print(students_ids)
