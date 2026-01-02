@@ -21,7 +21,7 @@ def separate(arr):
     left = separate(left)
     right = separate(right)
     return separate(left, right)
-    print(separate(left, right))
+
 def merge(left, right):
     result = []
     i = j = 0
