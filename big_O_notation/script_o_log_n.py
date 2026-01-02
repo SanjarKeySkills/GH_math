@@ -20,7 +20,7 @@ def separate(arr):
 # ----recursion
     left = separate(left)
     right = separate(right)
-    return separate(left, right)
+    return merge(left, right)
 
 def merge(left, right):
     result = []
