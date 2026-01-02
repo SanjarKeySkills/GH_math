@@ -38,4 +38,4 @@ def merge(left, right):
     result.extend(right[j:])
     return result
 
-print(arr)
+sorted_arr = separate(arr)
