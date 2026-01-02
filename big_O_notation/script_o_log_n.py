@@ -39,3 +39,5 @@ def merge(left, right):
     return result
 
 sorted_arr = separate(arr)
+print("not sorted arr", arr)
+print("sorted", arr)
