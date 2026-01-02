@@ -40,4 +40,4 @@ def merge(left, right):
 
 sorted_arr = separate(arr)
 print("not sorted arr", arr)
-print("sorted", arr)
+print("sorted", sorted_arr)
