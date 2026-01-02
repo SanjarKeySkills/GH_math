@@ -25,7 +25,7 @@ def separate(arr):
 def merge(left, right):
     result = []
     i = j = 0
-    while i < arr(left) and j < arr(right):
+    while i < len(left) and j < len(right):
         if left[i] <= right[j]:
             result.append(left[i])
             i += 1
