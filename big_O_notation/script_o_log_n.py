@@ -60,4 +60,6 @@ def sort_arrays(arr_first, arr_second):
             o += 1
     final_result.extend(arr_first[e:])
     final_result.extend(arr_second[o:])
+    return final_result
+
                 
