@@ -39,11 +39,12 @@ def merge(left, right):
     return result
 
 sorted_arr = separate(arr)
-print("not sorted arr", arr)
-print("sorted", sorted_arr)
+# print("not sorted arr", arr)
+# print("sorted", sorted_arr)
 
 
 # -------------separate---arrays----sorts------------
+
 
 arr_first = [23, 90, 87, 12, 34, 56, 98, 16, 8, 11, 55, 88, 96, 69]
 arr_second = [33, 31, 45, 46, 80, 123, 304, 41, 111, 101, 97, 59, 15]
@@ -56,10 +57,9 @@ def sort_arrays(arr_first, arr_second):
             final_result.append(arr_first[e])
             e += 1
         else:
-            final_result.append()(arr_second[o])
+            final_result.append(arr_second[o])
             o += 1
-    final_result.extend(arr_first[e:])
-    final_result.extend(arr_second[o:])
-    return final_result
-
-                
+        final_result.extend(arr_first[e:])
+        final_result.extend(arr_second[o:])
+        return final_result
+    
