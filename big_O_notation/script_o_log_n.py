@@ -62,4 +62,4 @@ def sort_arrays(arr_first, arr_second):
         final_result.extend(arr_first[e:])
         final_result.extend(arr_second[o:])
         return final_result
-    
+print(result)
