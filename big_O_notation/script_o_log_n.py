@@ -1,12 +1,12 @@
 arr = [1, 2, 3, 4, 5, 6, 7]
 dict_from_list = {i: val for i, val in enumerate(arr)}
-# print(dict_from_list)
+print(dict_from_list)
 
 #-----------------------------------------
 
 students =  ["Ann", "Boris", "Tanya", "Nathan"]
 students_ids = {id: name for id, name in enumerate(students, start=13)}
-# print(students_ids)
+print(students_ids)
 
 # ----------------------------------------
 arr = [45, 98, 3, 24, 78, 56, 14, 97, 55, 1, 18, 73]
@@ -39,13 +39,13 @@ def merge(left, right):
     return result
 
 sorted_arr = separate(arr)
-# print("not sorted arr", arr)
-# print("sorted", sorted_arr)
+print("not sorted arr", arr)
+print("sorted", sorted_arr)
 
 
 # -------------separate---arrays----sorts------------
 
-
+arr_zero = [7, 9, 8, 5, 10, 11]
 arr_first = [23, 90, 87, 12, 34, 56, 98, 16, 8, 11, 55, 88, 96, 69]
 arr_second = [33, 31, 45, 46, 80, 123, 304, 41, 111, 101, 97, 59, 15]
 
@@ -62,4 +62,3 @@ def sort_arrays(arr_first, arr_second):
         final_result.extend(arr_first[e:])
         final_result.extend(arr_second[o:])
         return final_result
-print(result)
