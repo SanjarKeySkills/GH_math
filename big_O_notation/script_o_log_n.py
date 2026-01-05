@@ -63,4 +63,4 @@ def sort_arrays(arr_first, arr_second):
     final_result.extend(arr_second[o:])
     return final_result
 output = sort_arrays(arr_first, arr_second)
-print(output)
+# print(output)
