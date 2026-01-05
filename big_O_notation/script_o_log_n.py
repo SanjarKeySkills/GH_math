@@ -9,7 +9,7 @@ students_ids = {id: name for id, name in enumerate(students, start=13)}
 # print(students_ids)
 
 # ----------------------------------------
-arr = [45, 98, 3, 24, 1000, 78, 56, 14, 97, 55, 1, 18, 73]
+arr = [45, 1000000008, 98, 3, 24, 1000, 78, 56, 14, 97, 55, 1, 18, 73]
 
 def separate(arr):
     if len(arr) <= 1:
