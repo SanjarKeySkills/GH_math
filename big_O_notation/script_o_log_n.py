@@ -64,3 +64,6 @@ def sort_arrays(arr_first, arr_second):
     return final_result
 output = sort_arrays(arr_first, arr_second)
 # print(output)
+
+
+# Python Programming Practice: LeetCode #1 -- Two Sum
