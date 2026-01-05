@@ -59,6 +59,6 @@ def sort_arrays(arr_first, arr_second):
         else:
             final_result.append(arr_second[o])
             o += 1
-        final_result.extend(arr_first[e:])
-        final_result.extend(arr_second[o:])
-        return final_result
+    final_result.extend(arr_first[e:])
+    final_result.extend(arr_second[o:])
+    return final_result
