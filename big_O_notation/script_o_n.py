@@ -27,6 +27,6 @@ print(result)
 
 #constant
 
-students = ["ann", "boris", "victor", "galina"]
+students = ["ann", "boris", "victor", "galina", "maryy", "betty", "alezee", "sabrina"]
 students_ids = {id: name for id, name in enumerate(students, start=100)}
 print(students_ids)
